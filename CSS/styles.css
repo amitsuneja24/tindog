@@ -1,0 +1,135 @@
+body{
+    text-align: center;
+}
+#title
+{
+    background-color: #ff4c68;
+  
+}
+h1{
+    font-family: "coiny";
+    font-size: 4rem;
+    line-height: 1.5;
+color: white;
+}
+
+h2
+    {font-family: "Abril Fatface";
+    line-height: 1.5;
+    font-size: 3rem;
+
+}
+h3{
+    font-family: "Abril Fatface", cursive;
+    font-size: 2rem;
+    margin-top: 1rem;
+
+}
+.container-fluid{
+    padding: 3% 15%;
+    padding-bottom: 10%;    
+}
+.navbar-brand{
+    font-size: 2.5rem;
+}
+.row{
+    padding-top: 4.5rem;
+}
+#iphone6{
+    transform: rotate(25deg);
+    position: absolute;
+    right: 15%;
+}
+.btn{
+font-size: 2rem;
+margin-right: 5%;
+margin-top: 7%;
+}
+.body{
+    font-family: "monserrat";
+}
+.nav-item{
+    padding-right: 3rem;
+}
+#features
+{
+    
+    padding: 7% 15%;
+    font-size: 1rem;
+    background-color: #fff;
+    position: relative;
+    
+    
+
+}
+
+.featurebox
+{
+    padding: 0% 6% 0% 6% ;
+
+}
+.featureicon{
+    color:#ed604e;
+}
+.featureicon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    
+    background-color: #ed604e;
+       color: white;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+#press{
+    background-color: #ed604e;
+padding-bottom: 3%;
+}
+.press-images{
+    width: 15%;
+    margin: 20px 50px 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 5%;
+
+}
+.price{
+    padding: 3% 2%;
+}
+#cta{
+    background-color: #ff4c68;
+    
+    padding: 7% 15% ;
+}
+#ctatext{
+    font-size: 4rem;
+    color: #fff;
+    font-family: coiny;
+    line-height: 1.5;
+}
+.ctaicon{
+    margin-right: 0.4rem;
+}
+#footer{
+    padding:4% 15%;
+    font-size: 1rem;
+}
+.footericon{
+    margin: 20px 10px;
+}
+@media (max-width:1020px)
+{
+    #iphone6{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
